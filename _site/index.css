@@ -1,0 +1,217 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 70px;
+  /*text-decoration: none;*/
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.nav-bar {
+  text-align: center;
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  width: 70%;
+  height:50%;
+}
+
+.main-img {
+  text-align: center;
+}
+
+a {
+  color: #191919;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  /*color: #00CED1;*/
+color: #2EB8E6;
+}
+
+a:active {
+  /*color: #008282;*/
+  color: #2EB8E6;
+}
+
+
+li a.about_current_page {
+  color: #2EB8E6;
+  font-weight: bold;
+}
+
+li a.projects_current_page {
+  color: #2EB8E6;
+  font-weight: bold;
+}
+
+li a.blogs_current_page {
+  color: #2EB8E6;
+  font-weight: bold;
+}
+
+
+li a.contact_current_page {
+  color: #2EB8E6;
+  font-weight: bold;
+}
+
+li a.resume_current_page {
+  color: #2EB8E6;
+  font-weight: bold;
+}
+
+
+/* ABOUT ME */
+
+.about-me-container {
+  /*border: 1px solid black;*/
+  width: 80%;
+  min-height: 200px;
+  padding: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-top: 1px solid grey;
+}
+
+
+.me {
+  width: 30%;
+  height: 90%;
+  border: 3px solid black;
+  float:left;
+  margin-right:20px;
+
+}
+
+.about-me-description {
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif
+}
+
+/*http://stackoverflow.com/questions/14436800/two-divs-next-to-each-other-that-then-stack-with-responsive-change*/
+
+
+
+/* PROJECTS */
+
+.projects {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.story-vine {
+  display: inline-block;
+}
+
+.project-descriptions {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+span {
+color: #0099CC;
+}
+
+
+/* BLOGS */
+
+.phase-0-blogs-link {
+  text-align: center
+
+}
+
+.blogs-content {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.phase-0-blogs {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+.back-to-blogs {
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  border: 1px dashed grey;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif
+}
+
+
+/* RESUME */
+
+
+.resume {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.resume-show {
+  border: 1px solid black;
+  /*-ms-transform: rotate(90deg); /* IE 9 */*/
+    /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */*/
+    /*transform: rotate(90deg);*/
+}
+
+
+
+
+
+/* CONTACT */
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Quicksand', sans-serif*/
+}
+
+.contact-content {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid grey;
+}
