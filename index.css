@@ -181,6 +181,14 @@ h3 {
 }
 
 
+.list-of-blogs {
+  display: inline;
+}
+
+span {
+  font-size: 15px;
+}
+
 /* RESUME */
 
 
